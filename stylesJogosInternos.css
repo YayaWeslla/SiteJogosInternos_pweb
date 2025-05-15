@@ -1,11 +1,16 @@
 h1 {
     font-family: 'Quicksand', sans-serif;
-    color:rgb(196, 228, 255);
+    color:rgb(0, 0, 0);
 }
 .centralizado{
+    font-family: 'Quicksand', sans-serif;
     text-align: center;
 }
-
+.cabecalho{
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    background-color: rgb(38, 131, 95);
+}
 .container {
     display: flex;
     flex-direction: column;
@@ -16,7 +21,17 @@ h1 {
     flex-grow: 1;
 }
 footer{
-    background-color:aquamarine;
+    background-color:rgb(38, 131, 95);
     margin: 0;
     border: 0;
+    padding: 0;
+}
+.background-color{
+    background-color: #e3f7f3;
+}
+.rodape{
+    color: white;
+}
+h2{
+    color:rgb(6, 61, 40);
 }
