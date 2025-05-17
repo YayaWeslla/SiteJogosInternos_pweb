@@ -1,6 +1,6 @@
 h1 {
     font-family: 'Quicksand', sans-serif;
-    color:rgb(0, 0, 0);
+    color:white;
 }
 .centralizado{
     font-family: 'Quicksand', sans-serif;
@@ -32,6 +32,19 @@ footer{
 .rodape{
     color: white;
 }
-h2{
+h2, h3{
+    font-family: 'Quicksand', sans-serif;
+    margin: 10px;
     color:rgb(6, 61, 40);
 }
+
+p{
+    margin:10px;
+    text-size-adjust: 20px;
+    text-align: justify;
+}
+
+.containerImagem{
+    display: flex;
+}
+
