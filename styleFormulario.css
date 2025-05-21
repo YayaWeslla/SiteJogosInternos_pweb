@@ -1,0 +1,142 @@
+h1 {
+    font-family: 'Quicksand', sans-serif;
+    color:white;
+}
+
+.centralizado{
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+}
+
+.cabecalho {
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
+  background-color: rgb(38, 131, 95);
+  margin: 0;
+  border: none;
+  padding: 0;
+}
+
+.cabecalho img,
+.cabecalho h1 {
+  margin: 0;
+  padding: 0;
+  border: none;
+  box-shadow: none;
+  outline: none;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.content {
+    flex-grow: 1;
+}
+
+footer{
+  background-color: rgb(38, 131, 95);
+  margin: 0;
+  border: 0;
+  padding: 0;
+
+}
+
+.background-color{
+    background-color: #e3f7f3;
+}
+
+.rodape{
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer,
+.rodape {
+  background-color: rgb(38, 131, 95);
+  margin: 0;
+  border: none;
+  padding: 0;
+}
+
+.rodape h4,
+.rodape i {
+  margin: 2px 0;
+}
+
+h2, h3{
+    font-family: 'Quicksand', sans-serif;
+    margin: 10px;
+    color:rgb(6, 61, 40);
+}
+
+p{
+    margin:10px;
+    text-size-adjust: 30px;
+    text-align: justify;
+    font-family: Georgia, sans-serif;
+}
+
+.containerImagem{
+    display: flex;
+}
+
+.caixaImagem{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin: 5px 0;
+}
+
+.caixaImagem img {
+    width: 40px;
+    height: 40px;
+}
+
+.caixaImagem2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.caixaImagem2 img {
+    width: 150px;
+    height: 100px;
+}
+.caixaTexto{
+      margin: 0;
+      white-space: nowrap;
+}
+
+.caixaTexto2{
+    margin: auto;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.img{
+    margin: 10px;
+    width: 400px;
+    height: auto;
+    align-self: center;
+}
+
+.imagem-centralizada {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+li{
+    margin:10px;
+    text-size-adjust: 20px;
+    text-align: justify;
+    font-family: Quicksand, sans-serif; 
+}
