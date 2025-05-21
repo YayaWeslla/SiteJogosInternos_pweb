@@ -213,3 +213,6 @@ li {
     justify-content: space-evenly;
 }
 
+.bordaImg {
+    border-radius: 6px;
+}
