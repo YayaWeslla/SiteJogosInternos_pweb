@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 h1 {
     font-family: 'Quicksand', sans-serif;
     color: white;
@@ -35,8 +41,8 @@ header {
     color: #fff;
     text-decoration: none;
     font-weight: 500;
-    margin-left: 40px;
-    font-family: 'Times New Roman', Times, serif;
+    margin-left: 20px;
+    font-family: 'Quicksand', sans-serif;
 }
 
 .navigation a::after {
@@ -272,3 +278,7 @@ li {
     border-radius: 6px;
 }
 
+h2 {
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+}
