@@ -18,6 +18,7 @@ header {
     justify-content: space-between;
     align-items: center;
     z-index: 99;
+    background-color: rgb(38, 131, 95);
     box-sizing: border-box;
 }
 
@@ -25,15 +26,17 @@ header {
     font-size: 2em;
     color: #fff;
     user-select: none;
+    font-family: 'Quicksand', sans-serif;
 }
 
-.navigation a{
+.navigation a {
     position: relative;
     font-size: 1.1em;
     color: #fff;
     text-decoration: none;
     font-weight: 500;
     margin-left: 40px;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .navigation a::after {
@@ -69,6 +72,7 @@ header {
     padding: 0;
 }
 
+
 .cabecalho img,
 .cabecalho h1 {
     margin: 0;
@@ -89,11 +93,11 @@ header {
     flex-grow: 1;
 }
 
-footer {
-    background-color: rgb(38, 131, 95);
-    margin: 0;
-    border: 0;
-    padding: 0;
+footer{
+  background-color: rgb(38, 131, 95);
+  margin: 0;
+  border: 0;
+  padding: 0;
 
 }
 
@@ -101,7 +105,7 @@ footer {
     background-color: #e3f7f3;
 }
 
-.rodape {
+.rodape{
     color: white;
     padding: 20px;
     text-align: center;
@@ -109,15 +113,15 @@ footer {
 
 footer,
 .rodape {
-    background-color: rgb(38, 131, 95);
-    margin: 0;
-    border: none;
-    padding: 0;
+  background-color: rgb(38, 131, 95);
+  margin: 0;
+  border: none;
+  padding: 0;
 }
 
 .rodape h4,
 .rodape i {
-    margin: 2px 0;
+  margin: 2px 0;
 }
 
 h2,
@@ -195,8 +199,6 @@ li {
     text-align: justify;
     font-family: Quicksand, sans-serif;
 }
-
-/* From Uiverse.io by Pravins01  - cards para os destaques do ano*/ 
 .card {
   position: relative;
   width: 254px;
@@ -269,3 +271,4 @@ li {
 .bordaImg {
     border-radius: 6px;
 }
+
