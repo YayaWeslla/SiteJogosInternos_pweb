@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,19 +9,20 @@
     <title>Jogos Internos - IFAL Arapiraca</title>
     <link rel="stylesheet" href="arquivosCss/stylesFormulario.css">
 </head>
+
 <body>
     <header>
-    <h2 class="logo">JOGOS INTERNOS - 2025</h2>
-    <nav class="navigation">
-        <a href="siteJogosInternos.html">Início</a>
-        <a href="#">Programação</a>
-        <a href="#">Modalidades esportivas</a>
-        <a href="#">Equipes</a>
-        <a href="#">Galeria de fotos</a>
-        <a href="formularioContato.html">Contato</a>
-        <a href="#">Histórico</a>
-    </nav>
-</header>
+        <h2 class="logo">JOGOS INTERNOS - 2025</h2>
+        <nav class="navigation">
+            <a href="siteJogosInternos.html">Início</a>
+            <a href="programacaoDosJogos.html">Programação</a>
+            <a href="modalidadesEsportivas.html">Modalidades esportivas</a>
+            <a href="equipesParticipantes.html">Equipes</a>
+            <a href="galeriaDeFotos.html">Galeria de fotos</a>
+            <a href="formularioContato.html">Contato</a>
+            <a href="historicoDosJogos.html">Histórico</a>
+        </nav>
+    </header>
     <div class="container">
         <main class="background-color">
             <div class="cabecalho">
@@ -29,114 +31,119 @@
                 </div>
             </div>
         </main>
-    <div class="main-container">
-        <div class="form-container">
-            <div class="form-box">
-                <h1>Jogos Internos IFAL Arapiraca</h1>
-                <p>Preencha seus dados para se inscrever!</p>
+        <div class="main-container">
+            <div class="form-container">
+                <div class="form-box">
+                    <h1>Jogos Internos IFAL Arapiraca</h1>
+                    <p>Preencha seus dados para se inscrever!</p>
 
-                <form id="formulario">
-                    <div class="input-group">
-                        <label for="nome">Nome completo</label>
-                        <input type="text" id="nome" name="nome" required>
+                    <form id="formulario">
+                        <div class="input-group">
+                            <label for="nome">Nome completo</label>
+                            <input type="text" id="nome" name="nome" required>
+                        </div>
+
+                        <div class="input-group">
+                            <label for="email">E-mail institucional</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+
+                        <div class="input-group">
+                            <label for="curso">Curso</label>
+                            <input type="text" id="curso" name="curso" required>
+                        </div>
+
+                        <div class="input-group">
+                            <label for="modalidade">Modalidade Esportiva</label>
+                            <select id="modalidade" name="modalidade" required>
+                                <option value="">Selecione</option>
+                                <option>Futsal</option>
+                                <option>Vôlei</option>
+                                <option>Basquete</option>
+                                <option>Handebol</option>
+                                <option>Atletismo</option>
+                                <option>Xadrez</option>
+                                <option>Natação</option>
+                            </select>
+                        </div>
+
+                        <div class="input-group">
+                            <label for="mensagem">Mensagem</label>
+                            <textarea id="mensagem" name="mensagem" rows="4"
+                                placeholder="Deixe sua dúvida, sugestão ou comentário..."></textarea>
+                        </div>
+
+                        <div class="button-group">
+                            <button type="submit" class="btn">Enviar</button>
+                            <button type="reset" class="btn btn-clear">Limpar</button>
+                        </div>
+                    </form>
+
+                    <div id="mensagem-enviada" class="hidden">
+                        ✔️ Formulário enviado com sucesso!
                     </div>
-
-                    <div class="input-group">
-                        <label for="email">E-mail institucional</label>
-                        <input type="email" id="email" name="email" required>
-                    </div>
-
-                    <div class="input-group">
-                        <label for="curso">Curso</label>
-                        <input type="text" id="curso" name="curso" required>
-                    </div>
-
-                    <div class="input-group">
-                        <label for="modalidade">Modalidade Esportiva</label>
-                        <select id="modalidade" name="modalidade" required>
-                            <option value="">Selecione</option>
-                            <option>Futsal</option>
-                            <option>Vôlei</option>
-                            <option>Basquete</option>
-                            <option>Handebol</option>
-                            <option>Atletismo</option>
-                            <option>Xadrez</option>
-                            <option>Natação</option>
-                        </select>
-                    </div>
-
-                    <div class="input-group">
-                        <label for="mensagem">Mensagem</label>
-                        <textarea id="mensagem" name="mensagem" rows="4" placeholder="Deixe sua dúvida, sugestão ou comentário..."></textarea>
-                    </div>
-
-                    <div class="button-group">
-                        <button type="submit" class="btn">Enviar</button>
-                        <button type="reset" class="btn btn-clear">Limpar</button>
-                    </div>
-                </form>
-
-                <div id="mensagem-enviada" class="hidden">
-                    ✔️ Formulário enviado com sucesso!
                 </div>
             </div>
-        </div>
-        <div class="info-container">
-            <h2>⚠️ Sobre os Jogos Internos</h2>
-            <p>
-                Os <strong>Jogos Internos do IFAL Arapiraca</strong> promovem integração, esporte e espírito de equipe entre os alunos. 
-                Esse ano ocorrerá entre os dias 4 de junho e 7 de junho, com competições em diversas modalidades esportivas.
-            </p>
+            <div class="info-container">
+                <h2>⚠️ Sobre os Jogos Internos</h2>
+                <p>
+                    Os <strong>Jogos Internos do IFAL Arapiraca</strong> promovem integração, esporte e espírito de
+                    equipe entre os alunos.
+                    Esse ano ocorrerá entre os dias 4 de junho e 7 de junho, com competições em diversas modalidades
+                    esportivas.
+                </p>
 
-            <div class="gallery">
-                <img src="fotos/futsal.jpeg" alt="Futsal">
-                <img src="fotos/voleibol.jpeg" alt="Vôlei">
-                <img src="fotos/basquete.jpeg" alt="Basquete">
-                <img src="fotos/ImagemaHandebol.jpeg" alt="Handebol">
+                <div class="gallery">
+                    <img src="fotos/futsal.jpeg" alt="Futsal">
+                    <img src="fotos/voleibol.jpeg" alt="Vôlei">
+                    <img src="fotos/basquete.jpeg" alt="Basquete">
+                    <img src="fotos/ImagemaHandebol.jpeg" alt="Handebol">
+                </div>
+
+                <p>
+                    🏃‍♂️ Modalidades disponíveis: Futsal, Vôlei, Basquete, Handebol, Atletismo, Nataçaõ e Xadrez.<br>
+                    🏅 Mostre sua habilidade, faça parte desse evento e marque sua história no IFAL!
+                </p>
             </div>
-
-            <p>
-                🏃‍♂️ Modalidades disponíveis: Futsal, Vôlei, Basquete, Handebol, Atletismo, Nataçaõ e Xadrez.<br>
-                🏅 Mostre sua habilidade, faça parte desse evento e marque sua história no IFAL!
-            </p>
         </div>
-    </div>
- <footer class="rodape">
-                <h4><abbr title="Site Jogos Internos - Informações dos organizadoras"><b>Informações organizadoras</b></abbr></h4>
-                <h4><i>Instituto Federal de Alagoas. Campus Arapiraca.</i></h4>
-                <div class="caixaImagem">
-                    <a href="https://www.instagram.com/bla_ckpurple15/"><img src="fotos/FotoNaelly.png"></a>
-                    <div class="caixaTexto">
-                         <h4><i>Naelly Padilha de Souza Alves - npsa1@aluno.ifal.edu.br</i></h4>
-                    </div>
+        <footer class="rodape">
+            <h4><abbr title="Site Jogos Internos - Informações dos organizadoras"><b>Informações
+                        das organizadoras</b></abbr></h4>
+            <h4><i>Instituto Federal de Alagoas. Campus Arapiraca.</i></h4>
+            <div class="caixaImagem">
+                <a href="https://www.instagram.com/bla_ckpurple15/"><img src="fotos/FotoNaelly.png"></a>
+                <div class="caixaTexto">
+                    <h4><i>Naelly Padilha de Souza Alves - npsa1@aluno.ifal.edu.br</i></h4>
                 </div>
-                <div class="caixaImagem">
-                    <a href="https://www.instagram.com/sofial.trindade/"><img src="fotos/FotoSofia.png"></a>
-                    <div class="caixaTexto">
-                        <h4><i>Sofia Lima da Trindade - slt3@aluno.ifal.edu.br</i></h4>
-                    </div>
+            </div>
+            <div class="caixaImagem">
+                <a href="https://www.instagram.com/sofial.trindade/"><img src="fotos/FotoSofia.png"></a>
+                <div class="caixaTexto">
+                    <h4><i>Sofia Lima da Trindade - slt3@aluno.ifal.edu.br</i></h4>
                 </div>
-                <div class="caixaImagem">
-                    <a href="https://www.instagram.com/wanessa.fab2/"><img src="fotos/FotoWanessa.png"></a>
-                    <div class="caixaTexto">
-                        <h4><i>Wanessa Fernanda André Bastos - wfab1@aluno.ifal.edu.br</i></h4>
-                    </div>
+            </div>
+            <div class="caixaImagem">
+                <a href="https://www.instagram.com/wanessa.fab2/"><img src="fotos/FotoWanessa.png"></a>
+                <div class="caixaTexto">
+                    <h4><i>Wanessa Fernanda André Bastos - wfab1@aluno.ifal.edu.br</i></h4>
                 </div>
-                <div class="caixaImagem">
-                    <a href="https://www.instagram.com/yasmim_yok/"><img src="fotos/FotoYasmim.png"></a>
-                    <div class="caixaTexto">
-                        <h4><i>Yasmim Weslla dos Santos - yws2@aluno.ifal.edu.br</i></h4>
-                    </div>
+            </div>
+            <div class="caixaImagem">
+                <a href="https://www.instagram.com/yasmim_yok/"><img src="fotos/FotoYasmim.png"></a>
+                <div class="caixaTexto">
+                    <h4><i>Yasmim Weslla dos Santos - yws2@aluno.ifal.edu.br</i></h4>
                 </div>
-                <div>
-                    <a href="https://www.instagram.com/913ifal/"><img src="fotos/InstagramLogo.png" width="40px"
-                            height="40px"></a>
-                    <a href="https://workspace.google.com/intl/pt-BR/gmail/"><img src="fotos/emailLogo.png" width="45px"
-                            height="40px"></a>
-                </div>
-                <h4><b>Ano de criação do site: 2025</b></h4>
+            </div>
+            <div>
+                <a href="https://www.instagram.com/913ifal/"><img src="fotos/InstagramLogo.png" width="40px"
+                        height="40px"></a>
+                <a href="https://workspace.google.com/intl/pt-BR/gmail/"><img src="fotos/emailLogo.png" width="45px"
+                        height="40px"></a>
+            </div>
+            <h4><b>Ano de criação do site: 2025</b></h4>
         </footer>
     </div>
 </body>
-    <script src="script.js"></script>
+<script src="script.js"></script>
+
 </html>
