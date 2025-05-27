@@ -219,7 +219,9 @@ li {
   cursor: pointer;
   color: rgb(0, 0, 0);
 }
-
+.card:first-child {
+    margin-top: 40px;
+}
 .card::before {
   content: '';
   position: absolute;
