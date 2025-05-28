@@ -80,11 +80,12 @@ h2 {
 
 .container-programacao {
     margin: auto;
-    padding: 20px;
+    padding: 30px;
     display: flex;
     flex-direction: column;
     width: 100%;
     max-width: 1175px;
+    gap: 30px;
 }
 
 
@@ -111,7 +112,7 @@ h2 {
 .box-programacao p.data{
     display: flex;
     justify-content: center;
-    background-color: #bf6969;
+    background-color: #bd5656;
     width: 100%;
 }
 
@@ -145,6 +146,32 @@ h2 {
     background-color: #793185;
 }
 
+.box-programacao p.modalidade-handebol {
+    display: flex;
+    justify-content: center;
+    font-weight: 300;
+    text-decoration: none;
+    width: 100%;
+    background-color: #3c3185;
+}
+
+.box-programacao p.modalidade-volei {
+    display: flex;
+    justify-content: center;
+    font-weight: 300;
+    text-decoration: none;
+    width: 100%;
+    background-color: #317285;
+}
+
+.box-programacao p.modalidade-basquete {
+    display: flex;
+    justify-content: center;
+    font-weight: 300;
+    text-decoration: none;
+    width: 100%;
+    background-color: #8d2079;
+}
 
 .box-programacao p.modalidade-genero-futsal {
     display: flex;
@@ -153,12 +180,53 @@ h2 {
     background-color: #94529f;
 }
 
+.box-programacao p.modalidade-genero-handebol {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: #565094;
+}
+
+.box-programacao p.modalidade-genero-volei {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: #518f9f;
+}
+
+.box-programacao p.modalidade-genero-basquete {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: #bd56a5
+}
 
 .box-programacao p.modalidade-grupo-futsal {
     display: flex;
     justify-content: center;
     width: 100%;
     background-color: #b895c8;
+}
+
+.box-programacao p.modalidade-grupo-handebol {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: #9a95c8;
+}
+
+.box-programacao p.modalidade-grupo-volei {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: #95bcc8;
+}
+
+.box-programacao p.modalidade-grupo-basquete {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: #d38cc2;
 }
 
 
