@@ -103,15 +103,16 @@ header {
     font-family: 'Quicksand', sans-serif;
 }
 
-.navigation a {
+.navigation a{
     position: relative;
     font-size: 1.1em;
     color: #fff;
     text-decoration: none;
     font-weight: 500;
-    margin-left: 20px;
-    font-family: 'Quicksand', sans-serif;
+    margin-left: 40px;
+    font-family: 'Times New Roman', Times, serif;
 }
+
 
 .navigation a::after {
     content: '';
@@ -127,10 +128,12 @@ header {
     transition: transform .5s;
 }
 
+
 .navigation a:hover::after {
     transform-origin: left;
     transform: scaleX(1);
 }
+
 
 .rodape{
     color: white;
