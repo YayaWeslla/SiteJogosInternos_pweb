@@ -295,7 +295,8 @@ header {
 }
 
 
-.navigation a{
+
+.navigation a {
     position: relative;
     font-size: 1.1em;
     color: #fff;
@@ -325,7 +326,6 @@ header {
     transform-origin: left;
     transform: scaleX(1);
 }
-
 
 
 .rodape{
