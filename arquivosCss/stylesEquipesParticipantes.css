@@ -139,3 +139,14 @@ header {
     padding: 20px;
     text-align: center;
 }
+
+
+.titulo-section {
+  margin-top: 150px; 
+}
+
+h2 {
+    font-family: 'Quicksand', sans-serif;
+    color: rgb(17, 109, 74);
+    text-align: center;
+}

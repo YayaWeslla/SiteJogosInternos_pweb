@@ -13,6 +13,7 @@ h1 {
 body .background-color {
     font-family: 'Quicksand', sans-serif;
     min-height: 100vh;
+    background-color: #e3f7f3;
 }
 main.container {
     background-color: #e3f7f3;
@@ -198,7 +199,11 @@ header {
     text-align: center;
 }
 
-
+.premiacoes {
+  background-color: #e3f7f3;
+  text-align: center;
+   margin-block-end: 5px;
+}
 .card__description {
     font-size: 1em;
     color: #333;
@@ -218,4 +223,17 @@ header {
 
 .card:hover .card__content {
     opacity: 1;
+}
+
+.navigation {
+  margin-bottom: 10px; 
+}
+.titulo-section {
+  margin-top: 130px; 
+}
+h2 {
+    font-family: 'Quicksand', sans-serif;
+    color: rgb(17, 109, 74);
+    text-align: center;
+    background-color: #e3f7f3;
 }

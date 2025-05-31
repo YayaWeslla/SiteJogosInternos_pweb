@@ -7,6 +7,7 @@
 body .background-color {
     font-family: 'Quicksand', sans-serif;
     min-height: 100vh;
+    background-color: #e3f7f3;
 }
 
 .background-color {
@@ -138,5 +139,17 @@ header {
 .rodape{
     color: white;
     padding: 20px;
+    text-align: center;
+}
+
+.navigation {
+  margin-bottom: 10px; 
+}
+.titulo-section {
+  margin-top: 150px; 
+}
+h2 {
+    font-family: 'Quicksand', sans-serif;
+    color: rgb(17, 109, 74);
     text-align: center;
 }
