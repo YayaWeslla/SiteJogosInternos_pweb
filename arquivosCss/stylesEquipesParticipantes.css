@@ -4,13 +4,12 @@
     box-sizing: border-box;
 }
 
-body .background-color {
+body {
     font-family: 'Quicksand', sans-serif;
     min-height: 100vh;
-}
-
-.background-color {
     background-color: #e3f7f3;
+    margin: 0;
+    padding: 0;
 }
 
 .cabecalho {
@@ -64,17 +63,22 @@ footer,
   margin: 2px 0;
 }
 
-.caixaImagem img {
-    width: 40px;
-    height: 40px;
-}
-
 h1, h4 {
     font-family: 'Quicksand', sans-serif;
     color: white;
 }
 
+h2 {
+    font-family: 'Quicksand', sans-serif;
+    color: rgb(17, 109, 74);
+    text-align: center;
+}
 
+h3 {
+    font-family: 'Quicksand', sans-serif;
+    color: rgb(17, 109, 74);
+    text-align: center;
+}
 
 header {
     position: fixed;
@@ -103,14 +107,18 @@ header {
     font-family: 'Quicksand', sans-serif;
 }
 
+.navigation {
+  margin-bottom: 10px; 
+}
+
 .navigation a{
     position: relative;
     font-size: 1.1em;
     color: #fff;
     text-decoration: none;
     font-weight: 500;
-    margin-left: 40px;
-    font-family: 'Times New Roman', Times, serif;
+    margin-left: 20px;
+    font-family: 'Quicksand', sans-serif;
 }
 
 
@@ -145,8 +153,84 @@ header {
   margin-top: 150px; 
 }
 
-h2 {
-    font-family: 'Quicksand', sans-serif;
-    color: rgb(17, 109, 74);
-    text-align: center;
+/*Código dos cards*/
+
+.cardPosicao {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.cardPosicao2 {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.card {
+  position: relative;
+  width: 200px;
+  height: 250px;
+  border-radius: 14px;
+  z-index: 1111;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 5px 5px 10px #b0b1b0;
+}
+
+.bg {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  width: 190px;
+  height: 240px;
+  z-index: 2;
+  background: rgba(255, 255, 255, .95);
+  backdrop-filter: blur(24px);
+  border-radius: 10px;
+  overflow: hidden;
+  outline: 2px solid white;
+}
+
+.blob {
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  left: 50%;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: #ff0000;
+  opacity: 1;
+  filter: blur(12px);
+  animation: blob-bounce 5s infinite ease;
+}
+
+@keyframes blob-bounce {
+  0% {
+    transform: translate(-100%, -100%) translate3d(0, 0, 0);
+  }
+
+  25% {
+    transform: translate(-100%, -100%) translate3d(100%, 0, 0);
+  }
+
+  50% {
+    transform: translate(-100%, -100%) translate3d(100%, 100%, 0);
+  }
+
+  75% {
+    transform: translate(-100%, -100%) translate3d(0, 100%, 0);
+  }
+
+  100% {
+    transform: translate(-100%, -100%) translate3d(0, 0, 0);
+  }
 }
