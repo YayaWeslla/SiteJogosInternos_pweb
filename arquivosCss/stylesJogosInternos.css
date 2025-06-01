@@ -59,8 +59,8 @@ header {
     color: #fff;
     text-decoration: none;
     font-weight: 500;
-    margin-left: 40px;
-    font-family: 'Times New Roman', Times, serif;
+    margin-left: 20px;
+    font-family: 'Quicksand', sans-serif;
 }
 
 
@@ -223,7 +223,7 @@ footer {
     margin: 0;
     border: 0;
     padding: 0;
-
+    font-family: 'Quicksand', sans-serif;
 }
 
 .container h2 {
@@ -326,7 +326,7 @@ li {
     margin: 10px;
     text-size-adjust: 20px;
     text-align: justify;
-    font-family: Quicksand, sans-serif;
+    font-family: 'Quicksand', sans-serif;
 }
 
 .card {
@@ -432,7 +432,7 @@ h2 {
 
 .card-description2 {
     color: black;
-    font-family: 'Times New Roman', serif;
+    font-family: 'Quicksand', sans-serif;
     font-size: 18px;
     margin-bottom: 16px;
 }

@@ -302,8 +302,8 @@ header {
     color: #fff;
     text-decoration: none;
     font-weight: 500;
-    margin-left: 40px;
-    font-family: 'Times New Roman', Times, serif;
+    margin-left: 20px;
+    font-family: 'Quicksand', sans-serif;
 }
 
 
@@ -321,6 +321,9 @@ header {
     transition: transform .5s;
 }
 
+main.container {
+    padding-bottom: 60px;
+}
 
 .navigation a:hover::after {
     transform-origin: left;

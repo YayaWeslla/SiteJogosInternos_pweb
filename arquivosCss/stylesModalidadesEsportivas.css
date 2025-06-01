@@ -45,24 +45,24 @@ body .background-color {
     white-space: nowrap;
 }
 
-footer{
-  background-color: rgb(38, 131, 95);
-  margin: 0;
-  border: 0;
-  padding: 0;
+footer {
+    background-color: rgb(38, 131, 95);
+    margin: 0;
+    border: 0;
+    padding: 0;
 }
 
 footer,
 .rodape {
-  background-color: rgb(38, 131, 95);
-  margin: 0;
-  border: none;
-  padding: 0;
+    background-color: rgb(38, 131, 95);
+    margin: 0;
+    border: none;
+    padding: 0;
 }
 
 .rodape h4,
 .rodape i {
-  margin: 2px 0;
+    margin: 2px 0;
 }
 
 .caixaImagem img {
@@ -70,7 +70,8 @@ footer,
     height: 40px;
 }
 
-h1, h4 {
+h1,
+h4 {
     font-family: 'Quicksand', sans-serif;
     color: white;
 }
@@ -104,14 +105,18 @@ header {
     font-family: 'Quicksand', sans-serif;
 }
 
-.navigation a{
+.navigation {
+    margin-bottom: 10px;
+}
+
+.navigation a {
     position: relative;
     font-size: 1.1em;
     color: #fff;
     text-decoration: none;
     font-weight: 500;
-    margin-left: 40px;
-    font-family: 'Times New Roman', Times, serif;
+    margin-left: 20px;
+    font-family: 'Quicksand', sans-serif;
 }
 
 
@@ -129,27 +134,25 @@ header {
     transition: transform .5s;
 }
 
-
 .navigation a:hover::after {
     transform-origin: left;
     transform: scaleX(1);
 }
 
 
-.rodape{
+.rodape {
     color: white;
     padding: 20px;
     text-align: center;
 }
 
-.navigation {
-  margin-bottom: 10px; 
-}
 .titulo-section {
-  margin-top: 150px; 
+    margin-top: 150px;
+    text-align: center;
 }
+
 h2 {
     font-family: 'Quicksand', sans-serif;
     color: rgb(17, 109, 74);
-    text-align: center;
+    margin: 10px;
 }
