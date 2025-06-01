@@ -23,19 +23,11 @@
             <a href="historicoDosJogos.html">Histórico</a>
         </nav>
     </header>
-    <div class="container">
-        <main class="background-color">
-            <div class="cabecalho">
-                <div class="imagem-centralizada">
-                    <img src="fotos/JogosInternos1.png" width="400px" height="300px">
-                </div>
-            </div>
-        </main>
         <div class="main-container">
             <div class="form-container">
                 <div class="form-box">
-                    <h1>Jogos Internos IFAL Arapiraca</h1>
-                    <p>Preencha seus dados para se inscrever!</p>
+                    <h1 class="titulo-section">Jogos Internos IFAL Arapiraca</h1>
+                    <p>Preencha seus dados e tire suas dúvidas!</p>
 
                     <form id="formulario">
                         <div class="input-group">
@@ -49,21 +41,24 @@
                         </div>
 
                         <div class="input-group">
-                            <label for="curso">Curso</label>
-                            <input type="text" id="curso" name="curso" required>
+                            <label for="modalidade">Curso:</label>
+                            <select id="modalidade" name="modalidade" required>
+                                <option value="">Selecione</option>
+                                <option>Informática</option>
+                                <option>Eletroeletrônica</option>
+                            </select>
                         </div>
 
                         <div class="input-group">
-                            <label for="modalidade">Modalidade Esportiva</label>
+                            <label for="modalidade">Turma:</label>
                             <select id="modalidade" name="modalidade" required>
                                 <option value="">Selecione</option>
-                                <option>Futsal</option>
-                                <option>Vôlei</option>
-                                <option>Basquete</option>
-                                <option>Handebol</option>
-                                <option>Atletismo</option>
-                                <option>Xadrez</option>
-                                <option>Natação</option>
+                                <option>411</option>
+                                <option>412</option>
+                                <option>413</option>
+                                <option>911</option>
+                                <option>912</option>
+                                <option>913</option>
                             </select>
                         </div>
 
@@ -104,7 +99,7 @@
                     🏃‍♂️ Modalidades disponíveis: Futsal, Vôlei, Basquete, Handebol, Atletismo, Nataçaõ e Xadrez.<br>
                     🏅 Mostre sua habilidade, faça parte desse evento e marque sua história no IFAL!
                 </p>
-            </div>
+            </div>            
         </div>
         <footer class="rodape">
             <h4><abbr title="Site Jogos Internos - Informações dos organizadoras"><b>Informações
