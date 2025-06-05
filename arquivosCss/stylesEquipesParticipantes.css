@@ -64,7 +64,7 @@ footer,
 }
 
 h1, h4 {
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     color: white;
 }
 
@@ -117,8 +117,8 @@ header {
     color: #fff;
     text-decoration: none;
     font-weight: 500;
-    margin-left: 20px;
-    font-family: 'Quicksand', sans-serif;
+    margin-left: 40px;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 
