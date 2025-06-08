@@ -124,7 +124,6 @@ header {
     font-family: 'Quicksand', sans-serif;
 }
 
-
 .navigation a::after {
     content: '';
     position: absolute;
@@ -138,7 +137,6 @@ header {
     transform: scaleX(0);
     transition: transform .5s;
 }
-
 
 .navigation a:hover::after {
     transform-origin: left;
@@ -158,6 +156,7 @@ header {
 
 .titulo-section {
     margin-top: 150px;
+    text-align: center;
 }
 
 h2 {
@@ -239,4 +238,5 @@ h3 {
   flex-direction: column;
   padding: 10px;
   font-family: 'Quicksand', sans-serif;
+  margin: 10px;
 }

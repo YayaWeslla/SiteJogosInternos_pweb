@@ -243,6 +243,7 @@ footer,
     border: none;
     padding: 0;
     flex-shrink: 0;
+    font-family: 'Quicksand', sans-serif;
 }
 
 .container h2 {
