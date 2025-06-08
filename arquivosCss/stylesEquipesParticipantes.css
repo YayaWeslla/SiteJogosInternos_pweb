@@ -197,7 +197,7 @@ p {
 }
 
 .cardPosicao {
-  padding: 0;
+  padding: 10px;
   margin: 0;
   display: flex;
   flex-direction: row;
@@ -205,7 +205,7 @@ p {
 }
 
 .cardPosicao2 {
-  padding: 0;
+  padding: 10px;
   margin: 0;
   display: flex;
   flex-direction: row;
