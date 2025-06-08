@@ -45,11 +45,22 @@ body .background-color {
 .caixaImagem {
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 10px;
+    justify-content: flex-start;
+    width: 45%;
     margin: 5px 0;
+    flex-shrink: 0;
 }
 
+.desenvolvedores {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 650px;
+    margin: 0 auto;
+    gap: 5px
+}
 
 .caixaImagem img {
     width: 40px;
@@ -69,7 +80,7 @@ body .background-color {
     max-width: 1200px;
     background-color: #FAF9F6;
     border-radius: 30px;
-    box-shadow: 10px 10px 11px -4px rgba(0,13,0,0.75);
+    box-shadow: 10px 10px 11px -4px rgba(0, 13, 0, 0.75);
 }
 
 
@@ -90,14 +101,14 @@ h2 {
 
 
 .box-programacao {
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   flex-direction: column;
-   text-decoration: none;
-   border: 2px solid #7D0A0A;
-   border-radius: 20px;
-   overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-decoration: none;
+    border: 2px solid #7D0A0A;
+    border-radius: 20px;
+    overflow: hidden;
 }
 
 
@@ -109,7 +120,7 @@ h2 {
 }
 
 
-.box-programacao p.data{
+.box-programacao p.data {
     display: flex;
     justify-content: center;
     background-color: #bd5656;
@@ -230,26 +241,27 @@ h2 {
 }
 
 
-footer{
-  background-color: rgb(38, 131, 95);
-  margin: 0;
-  border: 0;
-  padding: 0;
+footer {
+    background-color: rgb(38, 131, 95);
+    margin: 0;
+    border: 0;
+    padding: 0;
 }
 
 
 footer,
 .rodape {
-  background-color: rgb(38, 131, 95);
-  margin: 0;
-  border: none;
-  padding: 0;
+    background-color: rgb(38, 131, 95);
+    margin: 0;
+    border: none;
+    padding: 0;
+    flex-shrink: 0;
 }
 
 
 .rodape h4,
 .rodape i {
-  margin: 2px 0;
+    margin: 0px 0;
 }
 
 
@@ -259,7 +271,8 @@ footer,
 }
 
 
-h1, h4 {
+h1,
+h4 {
     font-family: 'Quicksand', sans-serif;
     color: white;
 }
@@ -331,7 +344,7 @@ main.container {
 }
 
 
-.rodape{
+.rodape {
     color: white;
     padding: 20px;
     text-align: center;
@@ -339,7 +352,7 @@ main.container {
 
 
 .titulo-section {
-  margin-top: 120px; 
+    margin-top: 120px;
 }
 
 h2 {

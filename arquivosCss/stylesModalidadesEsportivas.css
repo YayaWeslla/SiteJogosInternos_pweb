@@ -4,13 +4,9 @@
     box-sizing: border-box;
 }
 
-body .background-color {
+body {
     font-family: 'Quicksand', sans-serif;
     min-height: 100vh;
-    background-color: #e3f7f3;
-}
-
-.background-color {
     background-color: #e3f7f3;
 }
 
@@ -27,12 +23,24 @@ body .background-color {
     padding-top: 100px;
 }
 
+.desenvolvedores {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 650px;
+    margin: 0 auto;
+    gap: 5px
+}
+
 .caixaImagem {
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 10px;
+    justify-content: flex-start;
+    width: 45%;
     margin: 5px 0;
+    flex-shrink: 0;
 }
 
 .caixaImagem img {
@@ -58,11 +66,12 @@ footer,
     margin: 0;
     border: none;
     padding: 0;
+    flex-shrink: 0;
 }
 
 .rodape h4,
 .rodape i {
-    margin: 2px 0;
+    margin: 0px 0;
 }
 
 .caixaImagem img {
@@ -105,10 +114,6 @@ header {
     font-family: 'Quicksand', sans-serif;
 }
 
-.navigation {
-    margin-bottom: 10px;
-}
-
 .navigation a {
     position: relative;
     font-size: 1.1em;
@@ -118,7 +123,6 @@ header {
     margin-left: 20px;
     font-family: 'Quicksand', sans-serif;
 }
-
 
 .navigation a::after {
     content: '';
@@ -146,6 +150,10 @@ header {
     text-align: center;
 }
 
+.navigation {
+    margin-bottom: 10px;
+}
+
 .titulo-section {
     margin-top: 150px;
     text-align: center;
@@ -154,5 +162,81 @@ header {
 h2 {
     font-family: 'Quicksand', sans-serif;
     color: rgb(17, 109, 74);
-    margin: 10px;
+    text-align: center;
+}
+
+/*Cards*/
+
+.cardImg {
+    width: 300px;
+    height: 200px;
+    perspective: 1000px;
+    border-radius: 3%;
+}
+
+.cardPosition {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    padding: 30px;
+}
+
+.card {
+  width: 300px;
+  height: 200px;
+  perspective: 1000px;
+}
+
+.card-inner {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.999s;
+}
+
+.card:hover .card-inner {
+  transform: rotateY(180deg);
+}
+
+.card-front,
+.card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.card-front {
+  background-color: #6A2C70;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  border: 10px solid #6A2C70;
+  border-radius: 10px;
+  justify-content: center;
+  font-size: 24px;
+  transform: rotateY(0deg);
+}
+
+h3 {
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.card-back {
+  background-color: rgb(23, 70, 52);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  border: 10px solid rgb(23, 70, 52);
+  border-radius: 10px;
+  justify-content: center;
+  font-size: 12px;
+  text-align: justify;
+  transform: rotateY(180deg);
+  flex-direction: column;
+  padding: 10px;
+  font-family: 'Quicksand', sans-serif;
+  margin: 10px;
 }

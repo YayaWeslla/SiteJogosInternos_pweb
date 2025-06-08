@@ -218,11 +218,31 @@ main.container {
     flex-grow: 1;
 }
 
+.desenvolvedores {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 650px;
+    margin: 0 auto;
+    gap: 5px
+}
+
 footer {
     background-color: rgb(38, 131, 95);
     margin: 0;
     border: 0;
     padding: 0;
+}
+
+footer,
+.rodape {
+    background-color: rgb(38, 131, 95);
+    margin: 0;
+    border: none;
+    padding: 0;
+    flex-shrink: 0;
     font-family: 'Quicksand', sans-serif;
 }
 
@@ -241,17 +261,9 @@ footer {
     padding: 20px;
 }
 
-footer,
-.rodape {
-    background-color: rgb(38, 131, 95);
-    margin: 0;
-    border: none;
-    padding: 0;
-}
-
 .rodape h4,
 .rodape i {
-    margin: 2px 0;
+    margin: 0px 0;
 }
 
 h2 {
@@ -274,9 +286,10 @@ p {
 .caixaImagem {
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 10px;
+    justify-content: flex-start;
+    width: 45%;
     margin: 5px 0;
+    flex-shrink: 0;
 }
 
 .caixaImagem img {
@@ -302,6 +315,7 @@ p {
 
 .caixaTexto2 {
     margin: auto;
+    white-space: nowrap;
 }
 
 body {
@@ -506,9 +520,15 @@ h2 {
     font-family: Georgia, serif;
     text-align: justify;
 }
+
 .navigation {
-  margin-bottom: 10px; 
+    margin-bottom: 10px;
 }
+
 .titulo-section {
-  margin-top: 150px; 
+    margin-top: 150px;
+}
+
+h4 {
+    font-family: 'Quicksand', sans-serif;
 }

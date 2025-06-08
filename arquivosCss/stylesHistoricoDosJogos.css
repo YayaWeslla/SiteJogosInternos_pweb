@@ -4,9 +4,10 @@
     padding: 0;
     font-family: 'Quicksand', sans-serif;
 }
+
 h1 {
     font-family: 'Quicksand', sans-serif;
-    color:rgb(14, 128, 79);
+    color: rgb(14, 128, 79);
 }
 
 
@@ -15,6 +16,7 @@ body .background-color {
     min-height: 100vh;
     background-color: #e3f7f3;
 }
+
 main.container {
     background-color: #e3f7f3;
     padding-bottom: 60px;
@@ -44,6 +46,7 @@ footer,
     padding: 20px;
     color: white;
     text-align: center;
+    flex-shrink: 0;
 }
 
 
@@ -52,13 +55,24 @@ footer,
     margin: 2px 0;
 }
 
+.desenvolvedores {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 650px;
+    margin: 0 auto;
+    gap: 5px
+}
 
 .caixaImagem {
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 10px;
+    justify-content: flex-start;
+    width: 45%;
     margin: 5px 0;
+    flex-shrink: 0;
 }
 
 
@@ -97,7 +111,7 @@ header {
 }
 
 
-.navigation a{
+.navigation a {
     position: relative;
     font-size: 1.1em;
     color: #fff;
@@ -149,7 +163,7 @@ header {
     justify-items: center;
     margin-bottom: 50px;
     margin-top: 40px;
-    background-color:  #e3f7f3;
+    background-color: #e3f7f3;
 }
 
 
@@ -200,10 +214,11 @@ header {
 }
 
 .premiacoes {
-  background-color: #e3f7f3;
-  text-align: center;
-   margin-block-end: 5px;
+    background-color: #e3f7f3;
+    text-align: center;
+    margin-block-end: 5px;
 }
+
 .card__description {
     font-size: 1em;
     color: #333;
@@ -226,11 +241,13 @@ header {
 }
 
 .navigation {
-  margin-bottom: 10px; 
+    margin-bottom: 10px;
 }
+
 .titulo-section {
-  margin-top: 130px; 
+    margin-top: 130px;
 }
+
 h2 {
     font-family: 'Quicksand', sans-serif;
     color: rgb(17, 109, 74);
